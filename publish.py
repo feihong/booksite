@@ -1,0 +1,22 @@
+import os
+import subprocess
+from pathlib import Path
+
+here = Path(__file__).parent
+books_file = here / Path("books.txt")
+book_files = [b + '.pdf' for b in books_file.read_text().strip().splitlines()]
+books_dir = Path(os.environ["BOOKS_DIR"]).expanduser()
+server_dir = os.environ["SERVER_DIR"]
+
+# Sync index page
+cmd = ['rsync', 'index.html', server_dir]
+subprocess.run(cmd, check=True, cwd=here)
+
+# Sync books
+cmd = [
+    'rsync',
+    '-av',
+    *book_files,
+    server_dir,
+]
+subprocess.run(cmd, check=True, cwd=books_dir)
