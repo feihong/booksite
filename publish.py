@@ -15,7 +15,9 @@ subprocess.run(cmd, check=True, cwd=here)
 # Sync books
 cmd = [
     'rsync',
-    '-av',
+    '--verbose',
+    '--archive', # preserve file data and system attributes
+    '--partial', '--progress', # show progress for each file
     *book_files,
     server_dir,
 ]
