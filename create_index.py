@@ -25,7 +25,7 @@ books_file = Path("books.txt")
 index_file = Path("index.html")
 
 js_script = Markup("""
-const command = `wget --recursive  --depth=1 --no-directories --accept=pdf --no-clobber --directory-prefix=~/books ${location.href}`
+const command = `wget --recursive --depth=1 --no-directories --accept=pdf --no-clobber --directory-prefix=$HOME/books ${location.href}`
 
 document.querySelector('code').textContent = command
 

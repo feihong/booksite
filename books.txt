@@ -5,10 +5,13 @@ AoPS Intro to Geometry+
 AoPS Intro to Number Theory+
 AoPS Precalculus+
 Barron's AP Computer Science Principles Premium -- Seth Reichelson
+ChinesePod Intermediate
+ChinesePod Upper Intermediate
 Everything You Need to Ace Chemistry in One Big Fat Notebook -- Jennifer Swanson
 Give Me Liberty! An American History Volume 1, Seagull Sixth Edition -- Eric Foner
 Give Me Liberty! An American History Volume 2, Seagull Sixth Edition -- Eric Foner
 Graded Chinese Reader 1000 words -- Shi Ji
 Integrated Chinese Volume 3 Textbook, 4th edition -- Yuehua Liu et al
 Integrated Chinese Volume 4 Textbook, 4th Edition -- Yuehua Liu et al
+No Bullshit Guide to Math and Physics
 The Concise Oxford Dictionary of Mathematics -- Richard Earl, James Nicholson
