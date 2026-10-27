@@ -33,7 +33,7 @@ document.querySelector('button').addEventListener('click', () => navigator.clipb
 """)
 
 def layout(*contents):
-    title_text = "Books"
+    title_text = "Offline Reference Library"
 
     return html[
         head[
